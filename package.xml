@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>Recklessio_Trafficsource</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license>GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Magento Traffic Source Tracker</summary>
+    <description>Magento modules to enhance reckless.io functionalities and provide more powerful information.&#xD;
+&#xD;
+This Magento module captures the source of every user visiting your website and saves the source when an order is placed. The admin user can then filter the source for every sales order in the Magento backend for further segmentation analysis.&#xD;
+&#xD;
+There is a different commercial version of the module, which will directly sync more information to Reckless.io big data servers for powerful analysis.&#xD;
+&#xD;
+Please note: for commercial sites we strongly recommend you get in touch with the development team at hello@reckless.io to ensure you make the best of the features or custom build yours, as well as access to our support team should you experience any problems.</description>
+    <notes>- Store google campaigns customer origin data in the placed orders.&#xD;
+- Store customer referral URL in the placed orders.&#xD;
+- Enhanced sales order grid to allow customer to filter by the new data.</notes>
+    <authors><author><name>Reckless</name><user>recklessio</user><email>hello@reckless.io</email></author></authors>
+    <date>2014-05-21</date>
+    <time>10:53:23</time>
+    <contents><target name="magecommunity"><dir name="Reckless"><dir name="TrafficSource"><dir name="Block"><dir name="Adminhtml"><dir name="Order"><file name="Grid.php" hash="a152310d618c01a9c1a9cc47f9d84994"/></dir></dir></dir><dir name="Model"><file name="Observer.php" hash="12681feae07fcab8c16aea0fc8af21b0"/><dir name="Resource"><file name="Setup.php" hash="dde10cce215c0971a3a3ee2d53d2a4b0"/></dir></dir><dir name="etc"><file name="config.xml" hash="5540371451d1c31e5aa3c4511812b6f0"/></dir><dir name="sql"><dir name="reckless_trafficsource_setup"><file name="install-1.0.0.0.php" hash="17ab95393b085bac2d7bb59c88b7c8a3"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Reckless_TrafficSource.xml" hash="7666b2e22e361240527cd9b3612ab428"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>comminuity</channel><min>1.0.0.0</min><max>1.9</max></package></required></dependencies>
+</package>
