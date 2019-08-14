@@ -30,7 +30,7 @@ class Reckless_TrafficSource_Model_Observer extends Mage_Core_Model_Abstract
             );
         }
         $utmzCookie = Mage::getModel('core/cookie')->get('__utmz');
-        $utmzCookie = '252594521.1399922653.21.2.utmcsr=ExactTarget|utmccn=10May2014-BabyNursery-UK|utmcmd=Email';
+
         if ($utmzCookie) {
             $utmzParams = array();
             parse_str(
@@ -68,8 +68,6 @@ class Reckless_TrafficSource_Model_Observer extends Mage_Core_Model_Abstract
             'rkl_web_source',
             $customerSession->getData('rkl_web_source')
         );
-        $utmzCookie = '252594521.1399922653.21.2.utmcsr=ExactTarget|utmccn=10May2014-BabyNursery-UK|utmcmd=Email';
-        Mage::log($utmzCookie);
 
         if ($utmzCookie) {
             $utmzParams = array();
