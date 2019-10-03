@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Recklessio_Trafficsource",
+    "name": "OpenMageModuleFostering\/Recklessio_Trafficsource",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "Magento Traffic Source Tracker",
     "authors": [
-    {
-        "name": "Reckless",
-        "email": "hello@reckless.io"
-    }
-],
+        {
+            "name": "Reckless",
+            "email": "hello@reckless.io"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
